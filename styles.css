@@ -1,40 +1,62 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h2{
     display: flex;
     font-weight: bolder;
     margin-right: auto;
     margin-top: 50px;
+    border: solid red;
+    flex-basis: content;
 }
 
 
 .top{
     display: flex;
     flex-direction: row;
+    text-wrap: nowrap;
+    width: auto;
     background: #1f2937;
     color: white;
+    text-overflow: unset;
+
 }
 
 .mainheader{
     display: flex;
-    margin-left: 150px;
+    margin-left: 300px;
     justify-content: center;
     align-items: center;
     font-weight: 600;
     flex-direction: column;
+    width: 480px;
+    border: solid red;
+    flex-basis: content;
 }
 
 .otherheaders{
     display:flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: left;
     margin-left: auto;
-    margin-right: 300px;
     margin-top: 25px;
+    border: solid red;
+    flex-basis: content;
+    
 }
 
 
 h3{
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
     padding: 12px;
+    border: solid red;
+    flex-basis: content;
+
 }
 
 .topmidleft{
@@ -47,6 +69,9 @@ h3{
     margin-inline-end: 850px;
     gap: 20px;
     padding-bottom: 100px;
+    margin-left: auto;
+    border: solid red;
+    flex-basis: content;
 }
 
 .HeroMain {
@@ -55,15 +80,17 @@ h3{
     font-weight: bolder;
     color: #F9FAF8;
     align-items: flex-start;
+    border: solid red;
+    flex-basis: content;
 }
 
 .HeroSec{
     display: flex;
     font-size: 18px;
     color: #F9FAF8;
-    align-items: flex-start;
-    justify-content: space-around;
-    text-align: left;
+    border: solid red;
+    flex-basis: content;
+
 }
 
 .signup{
@@ -79,5 +106,151 @@ h3{
     color: #E5E7EB;
     flex-basis: auto;
     width: max-content;
-    border-radius: 10px;
+    border: solid red;
+    flex-basis: content;
+}
+
+.newspaper{
+    display: flex;
+    height:200px;
+}
+
+.secondheader{
+    display: flex;
+    flex-direction: column;
+    border: solid yellow;
+    flex-basis: content;
+    margin-left: auto;
+    margin-right: 350px;
+    gap: 175px;
+}
+
+.secondtop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    border: solid red;
+    flex-basis: content;
+    padding-top: 1%;
+}
+
+.infoheader{
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+
+
+.spherebuilding,
+.ivoted,
+.saulgoodman,
+.prisoner{
+    height: auto;
+    width: 150px;
+    display: flex;
+    border: solid blue;
+    flex-basis: content;
+}
+
+
+.newsiconlist{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border: solid red;
+    flex-basis: 100%;
+    gap: 150px;
+    padding-bottom: 5%;
+}
+
+.spheretext,
+.ivotedtext,
+.saultext,
+.prisonertext {
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.newsiconsI,
+.newsiconsII,
+.newsiconsIII,
+.newsiconsIV{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: solid red;
+    flex-basis: 100%;
+    height: 100%;
+}
+
+.bottommid{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #E5E7EB;
+    flex-basis: 100%;
+}
+
+.textstuff{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-right: 600px;
+    margin-left: 600px;
+    flex-basis: 100%;
+
+}
+
+.snowdenquote{
+    display: flex;
+    font-size: 24px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.snowdenattribution{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bottom{
+    display: flex;
+    margin-top: 4%;
+}
+
+.bottombackground{
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 25px;
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signuptwo{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 25px;
+    padding: 12px;
+    border-color: white;
+    width: 100px;
+    height: 50px;
+    justify-content: right;
+    align-items: right;
+}
+
+.bottomtext{
+    padding-right: 20%;
 }
