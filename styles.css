@@ -9,63 +9,66 @@ h2{
     font-weight: bolder;
     margin-right: auto;
     margin-top: 0.5%;
-    border: solid red;
-    flex-basis: content;
-    margin-left: 30%;
-    padding-bottom: 14%;
+    margin-left: 20%;
+    color: white;
 }
 
-.mainheader,
-.topmidleft,
-.secondheader {
-    max-width: 40%;
+.topinfo {
+    max-width: 30%;
     width: 100%;
+    gap: 5px;
     margin: auto;
 }
 
 .top{
     display: flex;
-    justify-content: space-between;
-    background: #1f2937;
-    color: white;
+    background-color:#1F2937;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-.mainheader{
+.topheaders{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 5%;
+}
+
+.toplinks{
+    display: flex;
+    margin-right: 15%;
+    color: white;
+    font-size: medium;
+}
+
+.topinfo{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-    font-weight: 600;
+    margin-left: 10%;
 }
 
-.otherheaders{
-    display:flex;
-    align-items: flex-start;
-    justify-content: left;
-    margin-left: auto;
-    margin-top: 25px;
-    border: solid red;
-    flex-basis: content;
+.topstuff{
+    display: flex;
     padding-bottom: 8%;
+    
 }
+
+
+
 
 
 h3{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding: 12px;
-    border: solid red;
-    flex-basis: content;
-
 }
 
-.topmidleft{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-}
+
 
 .HeroMain {
     display: flex;
@@ -73,8 +76,7 @@ h3{
     font-weight: bolder;
     color: #F9FAF8;
     align-items: flex-start;
-    border: solid red;
-    flex-basis: content;
+
 }
 
 .HeroSec{
@@ -96,23 +98,15 @@ h3{
     color: #E5E7EB;
     flex-basis: auto;
     width: max-content;
-    border: solid red;
-    flex-basis: content;
 }
 
 .newspaper{
-    display: flex;
-    height:200px;
-    justify-content: center;
-    align-items: flex-start;
+    height: 250px;
+    width: auto;
+    margin-right: 20%;
+    margin: auto;
 }
 
-.secondheader{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 175px;
-}
 
 .secondtop{
     display: flex;
@@ -148,7 +142,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 150px;
+    gap: 100px;
     padding-bottom: 5%;
 }
 
